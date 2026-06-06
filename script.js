@@ -1,7 +1,7 @@
 // 📋 CADASTRO DE CLIENTES E SENHAS
 const albuns = {
-    "joao123": { // senha do cliente
-        nome: "João",
+    "veronica123": { // senha do cliente
+        nome: "veronica",
         fotos: [
             "albuns/joao/foto1.jpg",
             "albuns/joao/foto2.jpg",
