@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansano Studios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Capa principal -->
+    <div class="hero">
+        <h1>Mansano Studios</h1>
+        <p>Fotografia & Vídeo</p>
+        <p>Victor Mansano Ferreira</p>
+
+        <!-- Botão para acessar as fotos -->
+        <a href="#acesso" class="botao-acesso">Acessar suas fotos</a>
+
+        <!-- Links de contato -->
+        <div class="links-contato">
+            <a href="https://www.instagram.com/mansano.studios?igsh=cXV4bXZlZWsxNTVl&utm_source=qr" target="_blank" class="link-insta">Instagram</a>
+            <a href="https://wa.me/5519994066532" target="_blank" class="link-whats">WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Área de senha -->
+    <div id="acesso" class="acesso">
+        <h3>Acesso ao seu álbum</h3>
+        <p>Digite a senha que foi enviada para você:</p>
+        <input type="password" id="senhaAcesso" placeholder="Sua senha">
+        <button onclick="verificarSenha()">Entrar</button>
+        <p id="aviso" class="aviso"></p>
+    </div>
+
+    <!-- Área do álbum -->
+    <div id="album" class="album" style="display: none;">
+        <h2>Suas fotos</h2>
+        <p>Clique nas fotos para selecionar as que deseja receber editadas:</p>
+        <div id="gradeFotos" class="grade-fotos"></div>
+        <button onclick="enviarSelecao()">Enviar escolhas</button>
+        <p id="confirmacao" class="confirmacao"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
